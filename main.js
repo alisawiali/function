@@ -22,7 +22,7 @@ function calcAge (age){
  console.log(u)
 
 
- console.log('-------------')
+ console.log('---------------------Erst beispiel--------------------')
 
 
  let m =['hallo', 'Omer']
@@ -53,3 +53,21 @@ function Mari( ...mal){
 }
 
 Mari( 1,3,5,1)
+
+
+console.log('------------ arrow function----------------')
+
+
+let main =(name='Ahmed')=>/*function => */
+{ 
+    let result= 10;
+    console.log(`hallo ${name}`)
+    return result;
+
+
+}
+
+console.log(main('Imad'))
+main('omer')
+main('Ali')
+main('Amer')
